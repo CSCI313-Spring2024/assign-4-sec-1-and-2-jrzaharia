@@ -1,0 +1,5 @@
+<div class="container mb-4">
+  @for (contact of contacts; track contact; let i=$index) {
+  <app-contact-card [contact]="contact" [index]="i"></app-contact-card>
+  }
+</div>
